@@ -5,7 +5,7 @@ from sklearn.ensemble import GradientBoostingRegressor
 
 
 # Load data
-oral_cancer_df = pd.read_csv('oral_cancer_prediction_dataset.csv') 
+oral_cancer_df = pd.read_csv('./data/oral_cancer_prediction_dataset.csv') 
 
 # Preprocessing: Label Encoding
 label_encoder = LabelEncoder()
